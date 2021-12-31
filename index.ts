@@ -1,4 +1,4 @@
-function selectionUpdated(params: { a?: string; b?: string }) {
+function main(params: { a?: string; b?: string }) {
   const c = params.b && params.a;
   if (c) {
     [].forEach(() => {
